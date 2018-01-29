@@ -1,18 +1,15 @@
  <div class="row movie-list">
    
  <div class="card col-md-3" *ngFor="let movie of movies">
-   <h3 class="card-header">{{movie.name}}</h3>
+   <h3 class="card-header">{{movie.name}}    
+    <i (click)="toggleFavourite(movie)" class="fa fa-heart favourite"  
+    [ngStyle]="movie.favourite && {'color': 'red'}" ></i>
+</h3>
    <img height="400" src="../../assets/{{movie.image}}"/>
   <div class="card-body">
-    <h5 class="card-title">{{movie.description}}</h5>
-    <h6 class="card-subtitle text-muted">{{movie.description}}</h6>
-  </div>
- </div>
- <div class="card col-md-3" *ngFor="let movie of movies">
-   <h3 class="card-header">{{movie.name}}</h3>
-   <img height="400" src="../../assets/{{movie.image}}"/>
-  <div class="card-body">
-    <h5 class="card-title">{{movie.description}}</h5>
+      <i [ngClass]="1==1?'favourite':'blue'">Hello {{name}}</i>
+
+    <h5 class="card-title" >{{movie.description}}</h5>
     <h6 class="card-subtitle text-muted">{{movie.description}}</h6>
   </div>
  </div>

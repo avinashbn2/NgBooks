@@ -4,3 +4,12 @@
 .movie-list {
 	margin-top: 65px;
 }
+.fa-heart {
+	color: grey;
+	float: right;
+
+}
+.fa-heart:hover {
+	color: red; 
+}
+

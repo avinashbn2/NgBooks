@@ -27,12 +27,18 @@ export class MovieListComponent implements OnInit {
         newMovie.name = movie.name;
         newMovie.description = movie.description;
         newMovie.image = movie.image;
+        newMovie.favourite = movie.favourite;
         arr.push(newMovie);
       });
       }, (err) => {
         console.log(err);
     });
     return arr;
+  }
+  toggleFavourite(movie: Movie) {
+    console.log(this.movies);
+
+    movie.favourite = !movie.favourite;
   }
 
 }
