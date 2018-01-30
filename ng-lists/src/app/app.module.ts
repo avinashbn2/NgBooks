@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { MovieListComponent } from './movie-list/movie-list.component';
 import { HeaderComponent } from './header/header.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
+import { SearchComponent } from './search/search.component';
 
 
 @NgModule({
@@ -13,7 +14,8 @@ import { SidebarComponent } from './sidebar/sidebar.component';
     AppComponent,
     MovieListComponent,
     HeaderComponent,
-    SidebarComponent
+    SidebarComponent,
+    SearchComponent
   ],
   imports: [
     BrowserModule,
