@@ -7,6 +7,7 @@ import { MovieListComponent } from './movie-list/movie-list.component';
 import { HeaderComponent } from './header/header.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
 import { SearchComponent } from './search/search.component';
+import { BookListComponent } from './book-list/book-list.component';
 
 
 @NgModule({
@@ -15,7 +16,8 @@ import { SearchComponent } from './search/search.component';
     MovieListComponent,
     HeaderComponent,
     SidebarComponent,
-    SearchComponent
+    SearchComponent,
+    BookListComponent
   ],
   imports: [
     BrowserModule,

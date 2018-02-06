@@ -9,6 +9,11 @@ import { Book } from '../interfaces/book';
 @Injectable()
 export class BookService {
 
-  constructor() { }
+  constructor(private http: Http) { }
+  getBookData(): Observable<Book> {
+    return this.http.get('../../assets/books.json')
+      .map((res: any) => {console.log(res); return res.json(); })
+      .catch((err: any) => {console.log(err); return Observable.throw(err); });
+  }
 
 }

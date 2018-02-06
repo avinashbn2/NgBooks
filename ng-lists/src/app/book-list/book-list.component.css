@@ -1,0 +1,17 @@
+.card {
+	padding: 5px;
+}
+.book-list {
+	margin-top: 10px;
+}
+.fa-heart {
+	color: black;
+	float: right;
+
+}
+.fa-heart:hover {
+	color: red; 
+}
+.card-header {
+	height:90px;
+}
