@@ -1,0 +1,31 @@
+[
+    {
+        "title": "End of Watch",
+        "description":  "End of Watch is a crime novel by American writer Stephen King, the third volume of a trilogy focusing on Detective Bill Hodges, following Mr. Mercedes and Finders Keepers.[1] The book was first announced at an event at St. Francis College on April 21, 2015 under the title The Suicide Prince. On June 10, the new title End of Watch was announced.[2] At the 2015 Edgar Awards, while accepting the award for Best Novel for Mr. Mercedes, King announced that the novel's antagonist, Brady Hartsfield, would be making a return in this book.",
+        "cover": "end_of_watch.jpg",
+        "author":"Stephen King",
+        "favourite": false,
+    },
+    {
+        "title": "To Kill a Mockingbird",
+        "description":  "To Kill a Mockingbird is a novel by Harper Lee published in 1960. It was immediately successful, winning the Pulitzer Prize, and has become a classic of modern American literature. The plot and characters are loosely based on Lee's observations of her family, her neighbors and an event that occurred near her hometown of Monroeville, Alabama, in 1936, when she was 10 years old. The story is told by the six-year-old Jean Louise Finch.",
+        "cover": "to_kill_a_mocking_bird.jpg",
+        "author":"Harper Lee",
+        "favourite": false,
+    },
+    {
+        "title": "All the Light We Cannot See",
+        "description":  "All the Light We Cannot See is a novel written by American author Anthony Doerr, published by Scribner on May 6, 2014. It won the 2015 Pulitzer Prize for Fiction and the 2015 Andrew Carnegie Medal for Excellence in Fiction.",
+        "cover": "all_the_light_we_cannot_see.jpg",
+        "author":"Anthony Doerr",
+        "favourite": false,
+    },
+    {
+        "title": "The Shining",
+        "description":  "The Shining is a horror novel by American author Stephen King. Published in 1977, it is King's third published novel and first hardback bestseller: the success of the book firmly established King as a preeminent author in the horror genre. The setting and characters are influenced by King's personal experiences, including both his visit to The Stanley Hotel in 1974 and his recovery from alcoholism. The novel was followed by a sequel, Doctor Sleep, published in 2013.",
+        "cover": "the_shining.jpeg",
+        "author":"Stephen King",
+        "favourite": false,
+    },
+
+]
